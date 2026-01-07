@@ -7,7 +7,7 @@
 
 A modern ML-powered biometric authentication system that identifies users based on their unique typing patterns. Your keystroke dynamics—how long you hold keys, the rhythm between keystrokes—create a behavioral biometric signature as unique as your fingerprint.
 
-![Demo Screenshot](https://via.placeholder.com/800x400/1a1a24/6366f1?text=Keystroke+Dynamics+Auth)
+![Homepage](docs/images/homepage.png)
 
 ## ✨ Features
 
@@ -178,32 +178,43 @@ python -m pytest tests/
 2. Update `get_feature_names()` and `to_vector()` methods
 3. Retrain models with new feature set
 
+## 📸 Screenshots
+
+| Registration | Authentication |
+|:---:|:---:|
+| ![Registration](docs/images/user_registration.png) | ![Auth](docs/images/authenticate_submission.png) |
+
+| Sample Collection | Analytics Dashboard |
+|:---:|:---:|
+| ![Samples](docs/images/sample_collection.png) | ![Analytics](docs/images/user_analytics_dashboard.png) |
+
 ## 📚 References
 
 - [Keystroke Dynamics - Wikipedia](https://en.wikipedia.org/wiki/Keystroke_dynamics)
 - [Biometric Authentication via Keystroke Dynamics](https://www.cs.cmu.edu/~keystroke/)
 - [scikit-learn Random Forest](https://scikit-learn.org/stable/modules/ensemble.html#random-forests)
 
+## 📖 Documentation
+
+| Document | Description |
+|----------|-------------|
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
+| [ROADMAP.md](ROADMAP.md) | Future enhancement plans |
+| [LICENSE](LICENSE) | MIT License |
+
+## 🤝 Contributing
+
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 👤 Author
 
-**Your Name**
+**Charan**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [@charanpool](https://github.com/charanpool)
 
 ---
 
